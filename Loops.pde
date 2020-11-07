@@ -26,6 +26,7 @@ void draw() {
 }
 
 void drawCircleRow(int rowY) {
+  fill(255, 65, 45);
   for (int circleX = 75; circleX <= 225; circleX += 75) {
     ellipse(circleX, rowY, 50, 50);
   }
